@@ -1,0 +1,21 @@
+nav {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    border-style: solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-title {
+justify-self: center;
+}
+
+#dropdown {
+    align-self: flex-start;
+    margin: 1%;
+    margin-bottom: -2.5%;
+}

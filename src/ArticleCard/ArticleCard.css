@@ -1,0 +1,14 @@
+.article-card {
+    border-style: solid;
+    width: 50%;
+    margin: 1%;
+    padding: 2%;
+  }
+
+  .article-card:hover {
+    cursor: pointer;
+  }
+  
+  .article-title, .article-byline {
+    margin: 0;
+  }
