@@ -5,10 +5,31 @@
     width: 90%;
     height: auto;
     padding: 1%;
+    margin-top: 125px;
+}
+
+.details-title, .byline {
+    text-align: center;
+    width: 60%;
 }
 
 .link-statement {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#abstract {
+    width: 50%;
+    font-size: 120%;
+    text-align: center;
+}
+
+.date-wrapper {
+    text-align: center;
+    margin: 5%;
+}
+
+.date {
+    margin: 0%;
 }

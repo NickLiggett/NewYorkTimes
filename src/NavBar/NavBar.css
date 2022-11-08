@@ -1,6 +1,6 @@
 nav {
     position: fixed;
-    height: 10%;
+    height: 100px;
     width: 100%;
     background-color: white;
     border-style: solid;
@@ -12,10 +12,25 @@ nav {
 
 .header-title {
 justify-self: center;
+font-size: 200%;
 }
 
-#dropdown {
+.filter-section {
     align-self: flex-start;
-    margin: 1%;
-    margin-bottom: -2.5%;
+    margin: 15px;
+    margin-bottom: -50px;
 }
+
+.filter-message, #dropdown {
+    margin: 0px;
+}
+
+option {
+    width: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+    nav {
+        height: 120px;
+    }
+  }

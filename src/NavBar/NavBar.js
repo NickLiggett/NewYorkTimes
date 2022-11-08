@@ -36,14 +36,17 @@ const subjectList = subjects.map((sub) => {
 const NavBar = ({ setSubject, selectedSubject }) => {
   return (
     <nav>
-      <select
-        type="selector"
-        value={selectedSubject}
-        id="dropdown"
-        onChange={(event) => setSubject(event.target.value)}
-      >
-        {subjectList}
-      </select>
+      <div className="filter-section">
+        <p className="filter-message">Filter by section:</p>
+        <select
+          type="selector"
+          value={selectedSubject}
+          id="dropdown"
+          onChange={(event) => setSubject(event.target.value)}
+        >
+          {subjectList}
+        </select>
+      </div>
       <h1 className="header-title">
         The New York Times Article Redirect Service
       </h1>
