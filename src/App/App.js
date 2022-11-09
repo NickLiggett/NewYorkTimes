@@ -29,7 +29,11 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar setSubject={setSubject} selectedSubject={selectedSubject} />
+      <NavBar
+        setSubject={setSubject}
+        selectedSubject={selectedSubject}
+        setSelected={setSelected}
+      />
       {!selectedArticle ? (
         <div className="article-list">{articleList}</div>
       ) : (

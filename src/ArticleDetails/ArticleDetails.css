@@ -10,7 +10,16 @@
 
 .details-title, .byline {
     text-align: center;
-    width: 60%;
+    width: 75%;
+}
+
+.details-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.byline {
+    margin-top: 0px;
 }
 
 .link-statement {
@@ -27,9 +36,33 @@
 
 .date-wrapper {
     text-align: center;
-    margin: 5%;
+    margin: 2%;
 }
 
 .date {
     margin: 0%;
 }
+
+@media only screen and (max-width: 720px) {
+    .article-details {
+      margin-top: 160px;
+    }
+  }
+
+  @media only screen and (max-width: 505px) {
+    .article-details {
+      margin-top: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .article-details {
+      margin-top: 250px;
+    }
+
+    #abstract {
+        width: 95%;
+        font-size: 120%;
+        text-align: center;
+    }
+  }

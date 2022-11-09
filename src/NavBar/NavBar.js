@@ -33,7 +33,13 @@ const subjectList = subjects.map((sub) => {
   return <option key={sub}>{sub}</option>;
 });
 
-const NavBar = ({ setSubject, selectedSubject }) => {
+const NavBar = ({ setSubject, selectedSubject, setSelected }) => {
+  const changeHandler = (event) => {
+    event.preventDefault();
+    setSubject(event.target.value);
+    setTimeout(() => setSelected(null), 600)
+  };
+
   return (
     <nav>
       <div className="filter-section">
@@ -42,7 +48,7 @@ const NavBar = ({ setSubject, selectedSubject }) => {
           type="selector"
           value={selectedSubject}
           id="dropdown"
-          onChange={(event) => setSubject(event.target.value)}
+          onChange={(event) => changeHandler(event)}
         >
           {subjectList}
         </select>

@@ -11,8 +11,8 @@ nav {
 }
 
 .header-title {
-justify-self: center;
-font-size: 200%;
+    justify-self: center;
+    font-size: 200%;
 }
 
 .filter-section {
@@ -29,8 +29,47 @@ option {
     width: 100px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 945px) {
     nav {
         height: 120px;
+    }
+
+    .header-title{
+        width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 590px) {
+    .filter-section {
+        align-self: center;
+        margin-top: 100px;
+        margin-bottom: -150px;
+    }
+
+    nav {
+        height: 150px;
+    }
+
+    .header-title{
+        width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 585px) {
+    nav {
+        height: 150px;
+    }
+  }
+
+
+  @media only screen and (max-width: 420px) {
+    .filter-section {
+        align-self: center;
+        margin-top: 100px;
+        margin-bottom: -150px;
+    }
+
+    .header-title{
+        width: 100%;
     }
   }
