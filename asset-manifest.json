@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NewYorkTimes/static/css/main.a04c94b7.css",
+    "main.js": "/NewYorkTimes/static/js/main.9e3cef75.js",
+    "index.html": "/NewYorkTimes/index.html",
+    "main.a04c94b7.css.map": "/NewYorkTimes/static/css/main.a04c94b7.css.map",
+    "main.9e3cef75.js.map": "/NewYorkTimes/static/js/main.9e3cef75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a04c94b7.css",
+    "static/js/main.9e3cef75.js"
+  ]
+}
