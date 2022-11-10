@@ -17,6 +17,12 @@
 - `cd` into the cloned down repo and run `npm start`
 
 # Application in Action
+### User can view Article Cards and the Article Details page.
+![](https://github.com/NickLiggett/NewYorkTimes/blob/648719ad9895baf3f40efb8d5365df51e240b61f/GIFS/2022-11-10%2008.39.31.gif)
+
+
+### User can filter displayed articles by "section".
+![](https://github.com/NickLiggett/NewYorkTimes/blob/648719ad9895baf3f40efb8d5365df51e240b61f/GIFS/2022-11-10%2008.41.29.gif)
 
 # Technologies
 - React
