@@ -11,3 +11,18 @@
 
 # Setup
 - Check out the working app [here](https://nickliggett.github.io/NewYorkTimes/)
+- Alternatively, you can run this app locally by following these instructions
+- Clone down this repo by running `git clone git@github.com:NickLiggett/RandyTomBurritos.git`
+- If you do not already have Node.js installed download it [here](https://nodejs.org/en/download/)
+- `cd` into the cloned down repo and run `npm start`
+
+# Application in Action
+
+# Technologies
+- React
+- CSS
+- Visual Studio Code
+- Cypress
+
+# Contributor
+- [Nick Liggett](https://www.linkedin.com/in/nick-liggett/)
