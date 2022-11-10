@@ -1,6 +1,6 @@
 # The New York Times Article Redirect Service
 - This project was a technical challenge given by Turing School of Software and Design.
-- The goal of this project was to extract data from a provided API and display that data in a UI that allows the user to scroll through articles and view a small details page about each one.
+- The goal of this project was to extract data from a provided API and display that data in a UI that allows the user to scroll through articles and view a details page about each one.
 
 # User Flows
 - When a User comes to the Home page, they will see a list of articles from the "Homepage" section of the New York Times website.
