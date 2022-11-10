@@ -8,6 +8,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(224, 224, 224)
 }
 
 .header-title {
@@ -25,6 +26,10 @@ nav {
     margin: 0px;
 }
 
+#dropdown:hover {
+    cursor: pointer;
+}
+
 option {
     width: 100px;
 }
@@ -39,7 +44,7 @@ option {
     }
   }
 
-  @media only screen and (max-width: 590px) {
+  @media only screen and (max-width: 600px) {
     .filter-section {
         align-self: center;
         margin-top: 100px;

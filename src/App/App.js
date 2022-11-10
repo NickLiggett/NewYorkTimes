@@ -9,12 +9,14 @@ function App() {
   const [articles, setArticles] = useState([]);
   const [selectedArticle, setSelected] = useState(null);
   const [selectedSubject, setSubject] = useState("home");
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
+    setLoading(true)
     fetchArticles(selectedSubject).then((data) => {
       let theArticles = data.results.filter((element) => element.title);
       setArticles(theArticles);
-    });
+    }).then(() => setLoading(false));
   }, [selectedSubject]);
 
   const articleList = articles.map((article) => {
@@ -34,14 +36,14 @@ function App() {
         selectedSubject={selectedSubject}
         setSelected={setSelected}
       />
-      {!selectedArticle ? (
+      {(!loading) ? (!selectedArticle ? (
         <div className="article-list">{articleList}</div>
       ) : (
         <ArticleDetails
           selectedArticle={selectedArticle}
           setSelected={setSelected}
-        />
-      )}
+        />)
+      ) : <h1 className="loading-message">Loading...</h1>}
     </div>
   );
 }

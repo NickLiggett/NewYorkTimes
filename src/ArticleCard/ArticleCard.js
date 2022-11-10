@@ -6,7 +6,7 @@ const ArticleCard = ({ setSelected, article }) => {
       className="article-card"
       onClick={() => setSelected(article)}
     >
-      <h3 className="article-title">{article.title}</h3>
+      <h2 className="article-title">{article.title}</h2>
       <p className="article-byline">{article.byline}</p>
     </div>
   );

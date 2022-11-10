@@ -6,6 +6,7 @@
     height: auto;
     padding: 1%;
     margin-top: 125px;
+    background-color: rgb(224, 224, 224)
 }
 
 .details-title, .byline {
@@ -43,9 +44,19 @@
     margin: 0%;
 }
 
-@media only screen and (max-width: 720px) {
+button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 945px) {
+  .article-details {
+    margin-top: 160px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
     .article-details {
-      margin-top: 160px;
+      margin-top: 180px;
     }
   }
 

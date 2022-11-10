@@ -1,14 +1,18 @@
 .article-card {
-    border-style: solid;
-    width: 90%;
+    width: 80%;
     margin: 2%;
     padding: 2%;
+    border-radius: 10px;
+    background-color:rgb(224, 224, 224);
   }
 
   .article-card:hover {
     cursor: pointer;
+    width: 81%;
+    padding: 2.1%;
+    background-color:white;
   }
   
-  .article-title, .article-byline {
-    margin: 0;
+  .article-title {
+    font-size: 150%;
   }

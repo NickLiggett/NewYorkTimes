@@ -37,7 +37,7 @@ const NavBar = ({ setSubject, selectedSubject, setSelected }) => {
   const changeHandler = (event) => {
     event.preventDefault();
     setSubject(event.target.value);
-    setTimeout(() => setSelected(null), 600)
+    setSelected(null)
   };
 
   return (
